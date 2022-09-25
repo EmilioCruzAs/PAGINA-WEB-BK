@@ -1,0 +1,43 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+
+
+.main{
+   display: block;
+   text-align: center;
+   margin-top: 5rem;
+   @include m.tablet {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10rem;
+   }
+}
+.img_main{
+   
+   width: 15rem;
+   height: 15rem;
+   @include m.tablet {
+   width: auto;
+   height: auto;
+   }
+}
+///aside
+aside{
+    margin-top: 5rem;
+    @include m.tablet {
+    margin-top: 0%;
+    margin-right: 10rem;
+    }
+    .info_aside{
+        color: v.$rojo;
+        font-family: v.$fuentesecundaria
+    }
+}
+
+hr{
+    width: 80%;
+}
+.subtema_main{
+    font-family: v.$fuentesecundaria;
+}
