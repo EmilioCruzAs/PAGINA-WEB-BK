@@ -508,3 +508,37 @@ hr {
 .subtema_main {
   font-family: FontsFree-Net-Poppins-SemiBold;
 }
+
+.footer {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #a01027;
+  margin: 0%;
+}
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 3rem;
+  }
+}
+.footer p {
+  margin: 0%;
+}
+.footer h2 {
+  font-family: FontsFree-Net-Avenir-Light-1;
+  text-align: center;
+  padding-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.lista-iconos {
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+}
+
+.ico {
+  margin-right: 1rem;
+}
