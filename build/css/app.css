@@ -489,16 +489,18 @@ p {
 
 aside {
   margin-top: 5rem;
+  margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
   aside {
     margin-top: 0%;
-    margin-right: 10rem;
+    margin-right: 12rem;
   }
 }
 aside .info_aside {
   color: #a01027;
   font-family: FontsFree-Net-Poppins-SemiBold;
+  text-align: center;
 }
 
 hr {
@@ -507,6 +509,51 @@ hr {
 
 .subtema_main {
   font-family: FontsFree-Net-Poppins-SemiBold;
+}
+
+.aside-container {
+  width: 60%;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #fff;
+  border: solid;
+  border-width: 0.2rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .aside-container {
+    width: 150%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.lista-aside {
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aside-imagen1 {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contenedores-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem;
+  align-items: center;
+  padding: 1.5rem;
+}
+@media (min-width: 768px) {
+  .contenedores-links {
+    gap: 4rem;
+    border: solid;
+    border-width: 0.1rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .footer {

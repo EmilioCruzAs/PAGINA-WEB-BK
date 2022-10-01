@@ -25,13 +25,17 @@
 ///aside
 aside{
     margin-top: 5rem;
+    margin-bottom: 2rem;
     @include m.tablet {
     margin-top: 0%;
-    margin-right: 10rem;
+    margin-right: 12rem;
+    
+    
     }
     .info_aside{
         color: v.$rojo;
-        font-family: v.$fuentesecundaria
+        font-family: v.$fuentesecundaria;
+        text-align: center;
     }
 }
 
@@ -40,4 +44,45 @@ hr{
 }
 .subtema_main{
     font-family: v.$fuentesecundaria;
+}
+.aside-container{
+    width: 60%;
+    border-radius: 10px 10px 10px 10px;
+ background-color: v.$blanco;
+ border: solid;
+ border-width: 0.2rem;
+ margin: 0 auto;
+@include m.tablet{
+    width: 150%;
+    display: flex;
+    justify-content: center;
+}
+}
+
+.lista-aside{
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.aside-imagen1{
+    width: 2rem;
+    height: 2rem;
+
+}
+.contenedores-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.3rem;
+    align-items: center;
+    padding: 1.5rem;
+    @include m.tablet{
+        gap: 4rem;
+        border: solid;
+        border-width: 0.1rem;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+
+    }
 }
